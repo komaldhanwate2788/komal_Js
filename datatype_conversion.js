@@ -10,3 +10,11 @@ let booleanValue = Boolean(isLoggedIn);
 console.log(booleanValue);
 
 
+/*---------------Operations------------------*/
+
+console.log("12");
+console.log("1" + 2);
+console.log(1 + "2");
+console.log(1 + 2 + "2");
+
+
