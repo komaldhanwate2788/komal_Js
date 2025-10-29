@@ -1,5 +1,5 @@
-# komal_Js
-all js practice code in it
+//komal_Js
+//all js practice code in it
 
 
 let name = "komal";
