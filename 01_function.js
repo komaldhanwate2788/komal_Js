@@ -23,12 +23,11 @@ function addTwoNum(num1,num2){
 
 
 
- function loggedinUserMsg(userName = "sam"){
-    if(!userName){
-        console.log("Please enter User name");
+function loggedinUserMsg(uesrName = "Ganesh"){
+    if(uesrName === undefined){
+        console.log("Please enter username");
         return
     }
-    return(`${userName} is just logged In`)
- }
-//  loggedinUserMsg("")
- console.log(loggedinUserMsg())
+    return `${uesrName} is just loggedin`
+}
+console.log(loggedinUserMsg("Dhruv"))
