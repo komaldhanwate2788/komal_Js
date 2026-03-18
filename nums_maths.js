@@ -18,3 +18,5 @@ console.log(Math.ceil(5.3));
 console.log(Math.floor(2.7));
 console.log(Math.min(5,6,9,2,0,7));
 console.log(Math.max(6,8,3,7,2,100));
+
+console.log(Math.floor(Math.random()*10)+1)
