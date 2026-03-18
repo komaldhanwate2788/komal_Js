@@ -17,4 +17,5 @@ console.log("1" + 2);
 console.log(1 + "2");
 console.log(1 + 2 + "2");
 
-
+/* Beacause os ECMA standards when input in number it will add all number or if there is string forst it will concate all string
+*/
