@@ -34,4 +34,12 @@ function myFullname(name = "abc"){
     }
  return `Hello my name is ${name}`
 }
-console.log(myFullname())
+// console.log(myFullname())
+
+function newName(name = "abc"){
+    if(!name){
+        console.log("Plz enter name")
+    }
+    return `My new name is ${name}`
+}
+console.log(newName("komal"))
