@@ -41,3 +41,14 @@ console.log(typeof(balance))
 
 const otherNum = 3.1454854
 console.log(otherNum.toFixed(2))
+
+const num = 14564655
+console.log(Math.abs(4))
+console.log(Math)
+console.log(Math.round(3.86))
+console.log(Math.ceil(6,3))
+console.log(Math.floor(4,2))
+console.log(Math.min(4,9,3,8,2,0))
+console.log(Math.max(9,7,3,68,4,2))
+console.log(Math.random()*10+1)
+// console.log(Math.toFixed(3))
