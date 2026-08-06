@@ -184,3 +184,46 @@ const course = {
 console.log(course)
 const {courseInstructor} = course
 console.log(courseInstructor)
+
+// Function
+
+function myName(){
+     console.log("k")
+     console.log("o")
+      console.log("m")
+     console.log("a")
+     console.log("l")
+      console.log("r")  
+}
+myName()
+
+function addTwoNum(num1,num2){
+    console.log(num1 + num2)
+}
+addTwoNum(4,"p")
+
+function addition(num1,num2){
+    const result = num1 + num2
+    return result;
+   
+}
+const result = addition(4,9)
+console.log(result)
+
+function loggedInUserMsg(username = 'komu'){
+    if(username === undefined){
+        console.log("Please enter user name")
+        return
+    }
+    return `User ${username} just loggedin`
+}
+console.log(loggedInUserMsg())
+
+const user1 = {
+    name:"komalrajole",
+    price:999
+}
+function handdleObject(anyobject){
+    return `User name is ${anyobject.name} and Price is ${anyobject.price}`
+}
+console.log(handdleObject(user1))
