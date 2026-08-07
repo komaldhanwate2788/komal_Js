@@ -227,3 +227,203 @@ function handdleObject(anyobject){
     return `User name is ${anyobject.name} and Price is ${anyobject.price}`
 }
 console.log(handdleObject(user1))
+
+function handdleObject2(anyobject){
+    return `User name is ${anyobject.name} and price is ${anyobject.price}`;
+}
+console.log(handdleObject2({
+    name: "koamlgrajole",
+    price:1999
+}))
+
+// const Arr = [100,200,300,400,500]
+function handdleArray(myArr){
+    return myArr[1];
+}
+console.log(handdleArray([100,200,500,400,800]))
+
+function one(){
+    const uname = "komalrajole"
+    function two(){
+        const website = "youtube"
+        console.log(uname)
+    }
+    // console.log(website)
+    two()
+}
+one()
+
+if(true){
+    const username = "komaldhanwate "
+    if(username === "komaldhanwate "){
+        const website = " Instagram"
+        console.log(username + website)
+    }
+    // console.log(website)
+}
+// console.log(username)
+
+function addone(num){
+    return num + 1
+}
+console.log(addone(5))
+
+const addtwo = function(num){
+    return num +2
+}
+console.log(addtwo(10))
+
+const user11 = {
+    username:"komalrajole",
+    price:1299,
+    welcomMessage:function(){
+        console.log(`User ${this.username}, Welcome on website`)
+        console.log(this)
+    }
+}
+// user11.welcomMessage()
+// user11.username = "hsdgsdhg"
+// user11.welcomMessage()
+       console.log(this)
+
+function chai(){
+    let uname = "komal"
+    console.log(this.uname)
+}
+chai()
+
+const code = () => {
+    let uname = "komal"
+    // console.log(this.uname)
+    console.log(uname)
+}
+code()
+
+const addOne = (num1, num2) =>{
+    return num1 + num2
+}
+console.log(addOne(10,50))
+
+// const addTwo = (n1,n2) => {
+//     return n1 + n2
+// }
+// console.log(addTwo(3,5))
+
+const addTwo1 = (n1,n2) => ({username: "komall"} )
+console.log(addTwo1(3,5));
+
+//  IIFE Immediately Invoked Function Expresssion
+// For removing global scope polluted 
+
+(function fub1(){
+    console.log(`DB Connected`);
+})();
+
+( (name) => {
+    console.log(`DB Connected Two ${name}`)
+}) ("komalrajlole")
+
+
+// If Else control flow
+
+// const isLoggedIn = true
+const temp = 41
+
+if(temp < 50){
+    console.log(`Tempreature is less than 50`)
+}else{
+    console.log(`Tempreature is greater than 50`)
+}
+
+const score12 = 20
+if(score12 < 100){
+    var power = "fly"
+    console.log(`User score power is ${power}`)
+}
+console.log(`User power is ${power}`)
+
+const isLoggedIn = true
+const debitCard  = true
+if(isLoggedIn && debitCard && 2==5){
+    console.log(`Execute`)
+}else
+console.log(`Not Execute`)
+
+const userEmail = []
+if(userEmail.length === 0){
+    console.log(`Array is Empty`)
+}else
+console.log("Array is not empaty")
+
+const objEmpty = {}
+if(Object.keys(objEmpty).length === 0){
+    console.log(`Object is empty`)
+}else{
+    console.log(`Object is not empty`)
+}
+
+// Trenaty opertor
+
+const iceTeac = 300
+iceTeac < 200?console.log(`Price is less than 200`):console.log(`Price is greter than 200`)
+
+// For loop
+
+for (let index = 0; index < 10; index++) {
+    const element = index;
+    if(element == 5){
+        console.log("5 is best number")
+    }
+    console.log(element)
+}
+
+for (let i = 0; i < 10; i++) {
+    console.log(`Outter loop ${i}`)
+    for (let j = 0; j < 10; j++) {
+        // console.log(` Outter ${i} and Inner Loop ${j} `)
+        console.log( i  + "*" + j + "=" + i*j)
+        
+    }
+    
+}
+
+const MyArray = ["flash","batman","spidreman"]
+for (let i = 0; i < MyArray.length; i++) {
+    const element = MyArray[i];
+    console.log(element)
+    
+}
+
+for (let i = 1; i < 10; i++) {
+    if(i == 5){
+        console.log(`5 is best number`)
+        // break;
+        continue;
+    }
+    console.log(`Value if i is ${i}`)
+    
+}
+
+// for of loop
+
+const Number1 = [1,5,4,8,9]
+for (const num of Number1) {
+    console.log(num)
+}
+
+const greeting = "Hello komal rajole!"
+for (const greet of greeting) {
+    console.log(greet)
+}
+
+// map
+
+const map = new Map()
+map.set("In","India")
+map.set("USA","United state of america")
+map.set("FR","Freance")
+console.log(map)
+
+for (const [key,value] of map) {
+    console.log(key , ":-",value)
+}
